@@ -242,23 +242,31 @@
   .box {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     font-family: 'Montserrat';
     font-size: 20px;
     font-weight: bold;
+    color: #FFF;
     width: auto;
     height: 200px;
     width: 100%;
 
     a {
-      color: #FFF;
+      margin-top: 10px;
       text-decoration: none;
-    }
+    }   
+
+
   }
 
-  .box:hover {
+  .box a:hover {
     font-size: 24px;
     cursor: pointer;
+  }
+
+  .box a:active {
+    opacity: 0.5;
   }
 
   .box.blue {
