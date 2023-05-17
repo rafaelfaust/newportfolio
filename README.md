@@ -1,27 +1,74 @@
-# Portfolio
+# New Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.3.
+Este é um projeto de portfólio pessoal desenvolvido em Angular, TypeScript e SCSS. Ele foi criado para exibir suas habilidades, projetos e experiência profissional de forma elegante e interativa.
 
-## Development server
+## Pré-requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Antes de começar, verifique se você tem os seguintes requisitos instalados em sua máquina:
 
-## Code scaffolding
+- Node.js: [https://nodejs.org](https://nodejs.org)
+- Angular CLI: [https://angular.io/cli](https://angular.io/cli)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalação
 
-## Build
+Siga as etapas abaixo para configurar e executar o projeto em sua máquina local:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone este repositório em seu diretório local:
 
-## Running unit tests
+   ```
+   git clone https://github.com/rafaelfaust/newportfolio.git
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Navegue até o diretório do projeto:
 
-## Running end-to-end tests
+   ```
+   cd newportfolio
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Instale as dependências do projeto:
 
-## Further help
+   ```
+   npm install
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. Inicie o servidor de desenvolvimento:
+
+   ```
+   ng serve
+   ```
+
+5. Abra o navegador e acesse `http://localhost:4200`. O aplicativo será carregado automaticamente e estará pronto para uso.
+
+## Estrutura do projeto
+
+O projeto segue a estrutura padrão do Angular:
+
+- `src/app/components`: Este diretório contém os componentes reutilizáveis do aplicativo.
+- `src/app/pages`: Este diretório contém as páginas do aplicativo.
+- `src/app/services`: Este diretório contém os serviços utilizados para obter dados de API ou executar operações específicas.
+- `src/app/shared`: Este diretório contém os componentes, diretivas, pipes e outros recursos compartilhados do aplicativo.
+- `src/assets`: Este diretório contém os arquivos estáticos, como imagens e folhas de estilo.
+
+## Personalização
+
+Você pode personalizar facilmente o conteúdo do portfólio e adaptá-lo às suas necessidades. Aqui estão algumas dicas para ajudá-lo:
+
+- Atualize as informações do seu portfólio no arquivo `src/app/shared/data/portfolio.json`. Você pode adicionar seus próprios projetos, experiência profissional, habilidades, etc.
+- Modifique o estilo do aplicativo alterando os arquivos SCSS em `src/assets/scss`. Você pode ajustar as cores, fontes e layout conforme necessário.
+- Adicione suas próprias imagens em `src/assets/images` para usá-las em seus projetos ou para personalizar o design do portfólio.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você quiser melhorar este projeto, sinta-se à vontade para enviar um pull request. Antes de contribuir, certifique-se de ler as diretrizes de contribuição do projeto.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para obter mais informações.
+
+## Contato
+
+Se você tiver alguma dúvida ou sugestão em relação a este projeto, sinta-se à vontade para entrar em contato comigo por meio do meu perfil do GitHub: [rafaelfaust](https://github.com/rafaelfaust).
+
+---
+
+Espero que este readme forneça as informações necessárias para configurar e personalizar o projeto New Portfolio. Divirta-se explorando suas habilidades e criando seu próprio portfólio personalizado!
